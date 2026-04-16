@@ -1,14 +1,42 @@
-# 🍯 HELLO WORLD! 🍯
+# 🍯 The Motto
 
-# <strong>I prefer</strong>
+```bash
+Je suis tombé, et pourtant je cours.
+```
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="20"/> <span style="font-size:24px;">c</span> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="20"/> <span style="font-size:24px;">c++</span> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="20"/> <span style="font-size:24px;">python</span> &nbsp;
-<br><br><small>(and yes, HTML 💻)</small>
+> *(I fell — yet I keep running.)*
+
+Falling is part of the process.
+This is a record of persistence through uncertainty, failure, and continuous forward movement.
 
 ---
 
-# <strong>Languages around me</strong>
+# 👤 About Me
 
-English · Deutsch · español · 日本語 · 한국어
+Completed Gifted Program in Information Security, SWU (Middle Level, Cohort 9)
+Completed 2022 Cyber Guardians Security Camp
+Completed Advanced Cybersecurity Track (High-Level B, Cohort 10), Gifted Program in Information Security, SWU
+
+I work at the intersection of software engineering, security, and artificial intelligence, focusing on building structured and reliable systems.
+
+---
+
+# 🎯 What I Focus On
+- Structured problem solving
+- System design thinking
+- Code efficiency and optimization
+- Turning ideas into practical implementations
+- Continuous improvement through iteration
+
+---
+
+# ⚙️ Preferences
+C
+C++
+Python
+
+---
+
+# 🧠 Philosophy
+
+I prefer building systems that make sense — not just systems that work.
