@@ -13,12 +13,14 @@ This is a record of persistence through uncertainty, failure, and continuous for
 
 # 👤 About Me
 
-Completed Gifted Program in Information Security, SWU (Middle Level, Cohort 9)
-Completed 2022 Cyber Guardians Security Camp
-Completed Advanced Cybersecurity Track (High-Level B, Cohort 10), Gifted Program in Information Security, SWU
+I design structured and efficient systems at the intersection of software engineering, security, and AI.
+I focus on understanding problems deeply and turning them into clean, practical systems.
 
-I work at the intersection of software engineering, security, and artificial intelligence, focusing on building structured and reliable systems.
-
+Completed:
+- Gifted Program in Information Security, SWU (Middle Level, Cohort 9)  
+- 2022 Cyber Guardians Security Camp  
+- Advanced Cybersecurity Track (High-Level B, Cohort 10), SWU Gifted Program in Information Security
+  
 ---
 
 # 🎯 What I Focus On
@@ -27,16 +29,3 @@ I work at the intersection of software engineering, security, and artificial int
 - Code efficiency and optimization
 - Turning ideas into practical implementations
 - Continuous improvement through iteration
-
----
-
-# ⚙️ Preferences
-C ,
-C++ ,
-Python 
-
----
-
-# 🧠 Philosophy
-
-I prefer building systems that make sense — not just systems that work.
