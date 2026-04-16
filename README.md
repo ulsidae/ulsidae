@@ -31,9 +31,9 @@ I work at the intersection of software engineering, security, and artificial int
 ---
 
 # ⚙️ Preferences
-C
-C++
-Python
+C ,
+C++ ,
+Python 
 
 ---
 
