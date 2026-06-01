@@ -23,9 +23,25 @@ Completed:
   
 ---
 
-# 🎯 What I Focus On
-- Structured problem solving
-- System design thinking
-- Code efficiency and optimization
-- Turning ideas into practical implementations
-- Continuous improvement through iteration
+# 🎯 What I Focus On (Systems I Design & Operate)
+
+- 🧠 [AURIX] → LLM-based reasoning system with memory and RAG layer  
+  (Cognitive core of a personal AI system integrated with TTS as an output interface)
+
+- 🎙️ [TTS] → Phonetics-based voice synthesis system  
+  (Voice interface layer for human–computer interaction driven by AURIX)
+
+- 🍯 [RSVP-systems](https://github.com/ulsidae/RSVP-systems/tree/main) → System-level problem solving and execution framework  
+  (Planning and orchestration layer for experimental system design)
+
+- 📓 [dev_logs](https://github.com/ulsidae/dev_logs) → Personal idea and decision journal for system design and everyday thinking  
+  (Living record of design decisions and iterative thinking across projects and daily life)
+
+---
+
+# ⚙️ Core Principles
+
+- Continuous improvement driven by real system usage and feedback loops  
+- System design thinking applied across all projects  
+- Performance-aware engineering with focus on efficiency and latency  
+- Reliability, maintainability, and failure-resistant design principle
