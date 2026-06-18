@@ -25,11 +25,11 @@ Completed:
 
 # 🎯 What I Focus On (Systems I Design & Operate)
 
-- 🧠 [AURIX] → LLM-based reasoning system with memory and RAG layer  
-  (Cognitive core of a personal AI system integrated with TTS as an output interface)
+- 🧠 [AURIX](https://github.com/ulsidae/AURIX) → Local LLM-based personal productivity system with memory and RAG layer  
+(Iterative product built through user feedback loops: task management → UX validation → behavioral insight system)
 
-- 🎙️ [TTS] → Phonetics-based voice synthesis system  
-  (Voice interface layer for human–computer interaction driven by AURIX)
+- 🎙️ [TTS] → PiperTTS-based text-to-speech system focused on usability and integration  
+(Practical voice interface layer with emphasis on reducing friction and exploring upstream contribution to the Piper ecosystem)
 
 - 🍯 [RSVP-systems](https://github.com/ulsidae/RSVP-systems/tree/main) → System-level problem solving and execution framework  
   (Planning and orchestration layer for experimental system design)
