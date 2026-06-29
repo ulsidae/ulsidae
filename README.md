@@ -6,6 +6,8 @@ Je suis tombé, et pourtant je cours.
 
 > *(I fell — yet I keep running.)*
 
+🌐 [Version française](https://github.com/ulsidae/portfolio-fr/blob/main/README.md)
+
 Falling is part of the process.
 This is a record of persistence through uncertainty, failure, and continuous forward movement.
 
