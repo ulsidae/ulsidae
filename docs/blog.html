@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ulsidae — Blog</title>
+
+  <!-- Amaranth -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+
+      font-family: 'Amaranth', sans-serif;
+
+      color: #ffffff;
+      background: #08080c;
+
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* ================================
+       Animated background
+    ================================= */
+
+    body::before,
+    body::after {
+      content: '';
+      position: fixed;
+
+      z-index: -2;
+
+      border-radius: 50%;
+
+      filter: blur(120px);
+      opacity: 0.6;
+
+      pointer-events: none;
+
+      animation:
+        floatBg
+        20s
+        infinite
+        alternate
+        ease-in-out;
+    }
+
+    body::before {
+      width: 600px;
+      height: 600px;
+
+      top: -10%;
+      left: 10%;
+
+      background:
+        radial-gradient(
+          circle,
+          rgba(64, 84, 178, 0.42) 0%,
+          rgba(15, 23, 42, 0) 70%
+        );
+    }
+
+    body::after {
+      width: 700px;
+      height: 700px;
+
+      right: 5%;
+      bottom: -20%;
+
+      background:
+        radial-gradient(
+          circle,
+          rgba(13, 148, 136, 0.28) 0%,
+          rgba(15, 23, 42, 0) 70%
+        );
+
+      animation-delay: -10s;
+    }
+
+    @keyframes floatBg {
+
+      0% {
+        transform:
+          translate(0, 0)
+          scale(1);
+      }
+
+      50% {
+        transform:
+          translate(80px, 50px)
+          scale(1.15);
+      }
+
+      100% {
+        transform:
+          translate(-60px, -40px)
+          scale(0.95);
+      }
+
+    }
+
+    /* ================================
+       Background grid
+    ================================= */
+
+    .background-grid {
+      position: fixed;
+      inset: 0;
+
+      z-index: -1;
+
+      pointer-events: none;
+
+      background-image:
+        linear-gradient(
+          rgba(255,255,255,0.018) 1px,
+          transparent 1px
+        ),
+        linear-gradient(
+          90deg,
+          rgba(255,255,255,0.018) 1px,
+          transparent 1px
+        );
+
+      background-size: 50px 50px;
+
+      mask-image:
+        linear-gradient(
+          to bottom,
+          black,
+          transparent 85%
+        );
+    }
+
+    /* ================================
+       Main
+    ================================= */
+
+    .page {
+      width: min(
+        1100px,
+        calc(100% - 40px)
+      );
+
+      margin: 0 auto;
+
+      padding:
+        60px
+        0
+        100px;
+    }
+
+    /* ================================
+       Header
+    ================================= */
+
+    header {
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+
+      margin-bottom: 100px;
+    }
+
+    .logo {
+      color: #ffffff;
+
+      text-decoration: none;
+
+      font-size: 1.2rem;
+      font-weight: 700;
+
+      letter-spacing: 3px;
+
+      opacity: 0.9;
+
+      transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+    }
+
+    .logo:hover {
+      opacity: 1;
+      transform: translateY(-1px);
+    }
+
+    .header-status {
+      display: flex;
+
+      align-items: center;
+
+      gap: 9px;
+
+      color:
+        rgba(255,255,255,0.4);
+
+      font-size: 0.8rem;
+
+      letter-spacing: 1px;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+
+      border-radius: 50%;
+
+      background: #5eead4;
+
+      box-shadow:
+        0 0 12px
+        rgba(94,234,212,0.8);
+    }
+
+    /* ================================
+       Hero
+    ================================= */
+
+    .hero {
+      max-width: 800px;
+
+      margin-bottom: 80px;
+    }
+
+    .hero-label {
+      margin-bottom: 20px;
+
+      color:
+        rgba(255,255,255,0.35);
+
+      font-size: 0.78rem;
+
+      letter-spacing: 4px;
+
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      margin-bottom: 28px;
+
+      font-size:
+        clamp(
+          3rem,
+          7vw,
+          5.8rem
+        );
+
+      font-weight: 400;
+
+      line-height: 1;
+
+      letter-spacing: -1px;
+
+      background:
+        linear-gradient(
+          120deg,
+          #ffffff 20%,
+          #b9c3ff 55%,
+          #7dd3fc 100%
+        );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      color: transparent;
+    }
+
+    .hero p {
+      max-width: 650px;
+
+      color:
+        rgba(255,255,255,0.55);
+
+      font-size: 1.05rem;
+
+      line-height: 1.9;
+    }
+
+    /* ================================
+       Glass
+    ================================= */
+
+    .glass {
+      background:
+        rgba(255,255,255,0.045);
+
+      border:
+        1px solid
+        rgba(255,255,255,0.11);
+
+      border-radius: 18px;
+
+      backdrop-filter:
+        blur(18px);
+
+      -webkit-backdrop-filter:
+        blur(18px);
+
+      box-shadow:
+        0 20px 60px
+        rgba(0,0,0,0.25);
+
+      transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+    }
+
+    .glass:hover {
+      border-color:
+        rgba(255,255,255,0.2);
+
+      background:
+        rgba(255,255,255,0.06);
+    }
+
+    /* ================================
+       About
+    ================================= */
+
+    .about {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 18px;
+
+      margin-bottom: 80px;
+    }
+
+    .info-card {
+      padding: 30px;
+    }
+
+    .card-label {
+      margin-bottom: 18px;
+
+      color:
+        rgba(255,255,255,0.32);
+
+      font-size: 0.7rem;
+
+      font-weight: 700;
+
+      letter-spacing: 2.5px;
+
+      text-transform: uppercase;
+    }
+
+    .info-card p {
+      margin-top: 20px;
+
+      color:
+        rgba(255,255,255,0.5);
+
+      font-size: 0.9rem;
+
+      line-height: 1.8;
+    }
+
+    .tech-list,
+    .language-list {
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 8px;
+    }
+
+    .tech,
+    .language {
+      padding:
+        7px
+        12px;
+
+      border-radius: 8px;
+
+      background:
+        rgba(255,255,255,0.055);
+
+      border:
+        1px solid
+        rgba(255,255,255,0.09);
+
+      color:
+        rgba(255,255,255,0.72);
+
+      font-size: 0.8rem;
+
+      transition:
+        all 0.25s ease;
+    }
+
+    .tech:hover,
+    .language:hover {
+      background:
+        rgba(255,255,255,0.12);
+
+      color: #ffffff;
+
+      transform:
+        translateY(-2px);
+    }
+
+    /* ================================
+       Section
+    ================================= */
+
+    .section {
+      margin-bottom: 80px;
+    }
+
+    .section-heading {
+      display: flex;
+
+      justify-content: space-between;
+      align-items: end;
+
+      margin-bottom: 25px;
+    }
+
+    .section-heading h2 {
+      font-size: 1.5rem;
+
+      font-weight: 400;
+    }
+
+    .section-heading span {
+      color:
+        rgba(255,255,255,0.28);
+
+      font-size: 0.75rem;
+
+      letter-spacing: 1px;
+    }
+
+    /* ================================
+       Tags
+    ================================= */
+
+    .tags {
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 9px;
+    }
+
+    .tag {
+      appearance: none;
+
+      padding:
+        9px
+        17px;
+
+      border-radius: 999px;
+
+      background:
+        rgba(255,255,255,0.045);
+
+      border:
+        1px solid
+        rgba(255,255,255,0.12);
+
+      color:
+        rgba(255,255,255,0.55);
+
+      font-family:
+        'Amaranth',
+        sans-serif;
+
+      font-size: 0.85rem;
+
+      cursor: pointer;
+
+      backdrop-filter:
+        blur(10px);
+
+      -webkit-backdrop-filter:
+        blur(10px);
+
+      transition:
+        all 0.25s ease;
+    }
+
+    .tag:hover {
+      color: #ffffff;
+
+      background:
+        rgba(255,255,255,0.1);
+
+      border-color:
+        rgba(255,255,255,0.28);
+
+      transform:
+        translateY(-2px);
+    }
+
+    .tag.active {
+      color: #ffffff;
+
+      background:
+        rgba(255,255,255,0.16);
+
+      border-color:
+        rgba(255,255,255,0.35);
+
+      box-shadow:
+        0 0 20px
+        rgba(255,255,255,0.08);
+    }
+
+    /* ================================
+       Posts
+    ================================= */
+
+    .posts {
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 18px;
+    }
+
+    .post {
+      min-height: 220px;
+
+      padding: 28px;
+
+      display: flex;
+
+      flex-direction: column;
+
+      color: inherit;
+
+      text-decoration: none;
+
+      cursor: pointer;
+    }
+
+    .post:hover {
+      transform:
+        translateY(-5px);
+    }
+
+    .post-meta {
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+
+      margin-bottom: 25px;
+    }
+
+    .post-category {
+      color: #8da2ff;
+
+      font-size: 0.7rem;
+
+      font-weight: 700;
+
+      letter-spacing: 1.5px;
+
+      text-transform: uppercase;
+    }
+
+    .post-date {
+      color:
+        rgba(255,255,255,0.28);
+
+      font-size: 0.7rem;
+    }
+
+    .post h3 {
+      margin-bottom: 12px;
+
+      color:
+        rgba(255,255,255,0.9);
+
+      font-size: 1.2rem;
+
+      font-weight: 400;
+    }
+
+    .post p {
+      color:
+        rgba(255,255,255,0.43);
+
+      font-size: 0.85rem;
+
+      line-height: 1.75;
+    }
+
+    .post-arrow {
+      margin-top: auto;
+
+      padding-top: 20px;
+
+      color:
+        rgba(255,255,255,0.3);
+
+      transition:
+        transform 0.25s ease,
+        color 0.25s ease;
+    }
+
+    .post:hover .post-arrow {
+      transform:
+        translateX(7px);
+
+      color:
+        rgba(255,255,255,0.8);
+    }
+
+    /* ================================
+       Footer
+    ================================= */
+
+    footer {
+      padding-top: 35px;
+
+      border-top:
+        1px solid
+        rgba(255,255,255,0.07);
+
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+
+      color:
+        rgba(255,255,255,0.25);
+
+      font-size: 0.75rem;
+    }
+
+    footer a {
+      color:
+        rgba(255,255,255,0.4);
+
+      text-decoration: none;
+
+      transition:
+        color 0.2s ease;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+    }
+
+    /* ================================
+       Responsive
+    ================================= */
+
+    @media (max-width: 700px) {
+
+      .page {
+        width:
+          calc(100% - 28px);
+
+        padding-top: 35px;
+      }
+
+      header {
+        margin-bottom: 65px;
+      }
+
+      .header-status {
+        display: none;
+      }
+
+      .hero {
+        margin-bottom: 60px;
+      }
+
+      .hero h1 {
+        font-size:
+          clamp(
+            2.8rem,
+            14vw,
+            4.2rem
+          );
+      }
+
+      .hero p {
+        font-size: 0.92rem;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+
+        margin-bottom: 60px;
+      }
+
+      .posts {
+        grid-template-columns: 1fr;
+      }
+
+      .post {
+        min-height: 200px;
+      }
+
+      footer {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 12px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+
+        transition: none !important;
+
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="background-grid"></div>
+
+  <main class="page">
+
+    <!-- Header -->
+
+    <header>
+
+      <a class="logo">
+        Hello World!
+      </a>
+
+      <div class="header-status">
+        <span class="status-dot"></span>
+        writing things
+      </div>
+
+    </header>
+
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+      <div class="hero-label">
+        ulsidae's blog
+      </div>
+
+      <h1>
+        Hello,<br>
+        I'm ulsidae.
+      </h1>
+
+      <p>
+        Welcome to my little corner of the internet.
+        I write about things I build, things I learn,
+        and things that happen to cross my mind.
+        <br><br>
+        Games, prototypes, code, experiments,
+        and the occasional thought that probably
+        should have stayed in my head.
+      </p>
+
+    </section>
+
+
+    <!-- About -->
+
+    <section class="about">
+
+      <article class="glass info-card">
+
+        <div class="card-label">
+          Tech Stack
+        </div>
+
+        <div class="tech-list">
+
+          <span class="tech">C++</span>
+          <span class="tech">Python</span>
+          <span class="tech">HTML</span>
+          <span class="tech">CSS</span>
+          <span class="tech">JavaScript</span>
+          <span class="tech">Node.js</span>
+          <span class="tech">Java</span>
+
+        </div>
+
+        <p>
+          I work with all sorts of technologies,
+          but C++, Python, and web technologies are my favorites.
+        </p>
+
+      </article>
+
+
+      <article class="glass info-card">
+
+        <div class="card-label">
+          Languages
+        </div>
+
+        <div class="language-list">
+
+          <span class="language">English</span>
+          <span class="language">Français</span>
+          <span class="language">日本語</span>
+          <span class="language">中文(普通话)</span>
+          <span class="language">한국어</span>
+
+        </div>
+
+        <p>
+          Five languages, five different ways
+          to describe the same strange world.
+        </p>
+
+      </article>
+
+    </section>
+
+
+    <!-- Categories -->
+
+    <section class="section">
+
+      <div class="section-heading">
+
+        <h2>
+          "Per aspera ad astra."
+        </h2>
+
+        <span>
+          CATEGORIES
+        </span>
+
+      </div>
+
+
+      <div class="tags">
+
+        <button
+          class="tag active"
+          data-filter="all"
+        >
+          All
+        </button>
+
+        <button
+          class="tag"
+          data-filter="game"
+        >
+          Games
+        </button>
+
+        <button
+          class="tag"
+          data-filter="prototype"
+        >
+          Prototypes
+        </button>
+
+        <button
+          class="tag"
+          data-filter="study"
+        >
+          Study Notes
+        </button>
+
+        <button
+          class="tag"
+          data-filter="dev"
+        >
+          Development
+        </button>
+
+        <button
+          class="tag"
+          data-filter="ai"
+        >
+          AI
+        </button>
+
+        <button
+          class="tag"
+          data-filter="thoughts"
+        >
+          Thoughts
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- Posts -->
+
+    <section class="section">
+
+      <div class="section-heading">
+
+        <h2>
+          Recent Stories
+        </h2>
+
+      </div>
+
+
+      <div class="posts">
+
+        <a
+          href="https://ulsidae.github.io/dont-take-my-gummies/index.html"
+          class="glass post"
+          data-category="game" <!-- prototype, study, dev, ai, thoughts-->
+        >
+
+          <div class="post-meta">
+
+            <span class="post-category">
+              Games <!-- Prototypes, Study Notes, Development, AI, Thoughts-->
+            </span>
+
+            <span class="post-date">
+              Aug 2026
+            </span>
+
+          </div>
+
+          <h3>
+            Don't Take My Gummies!
+          </h3>
+
+          <p>
+            It's a small game project I developed for the 2026 NHN Game x AI Hackathon.
+            I ran out of time to add audio, but hey — it's playable.
+          </p>
+
+          <div class="post-arrow">
+            →
+          </div>
+
+        </a>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+      <span>
+        © 2026 ulsidae
+      </span>
+
+      <a
+        href="https://github.com/ulsidae"
+        target="_blank"
+        rel="noopener"
+      >
+        GitHub ↗
+      </a>
+
+    </footer>
+
+  </main>
+
+
+  <script>
+
+    const tags =
+      document.querySelectorAll('.tag');
+
+    const posts =
+      document.querySelectorAll('.post');
+
+    const count =
+      document.getElementById('post-count');
+
+
+    tags.forEach(tag => {
+
+      tag.addEventListener(
+        'click',
+        () => {
+
+          const filter =
+            tag.dataset.filter;
+
+
+          tags.forEach(t => {
+            t.classList.remove('active');
+          });
+
+          tag.classList.add('active');
+
+
+          let visibleCount = 0;
+
+
+          posts.forEach(post => {
+
+            const category =
+              post.dataset.category;
+
+
+            if (
+              filter === 'all' ||
+              category === filter
+            ) {
+
+              post.style.display =
+                'flex';
+
+              visibleCount++;
+
+            } else {
+
+              post.style.display =
+                'none';
+
+            }
+
+          });
+
+
+          count.textContent =
+            `${visibleCount} ${
+              visibleCount === 1
+                ? 'post'
+                : 'posts'
+            }`;
+
+        }
+      );
+
+    });
+
+  </script>
+
+</body>
+</html>
