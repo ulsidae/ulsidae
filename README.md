@@ -25,9 +25,11 @@ Completed:
   
 ---
 
-# 🎯 What I Focus On (Systems I Design & Operate)
+# 🎯 What I Focus On
 
-- 🧠 [AURIX](https://github.com/ulsidae/AURIX) → Local LLM-based personal productivity system with memory and RAG layer  
+**I design, build, and iterate on systems across software engineering, security, and AI.**
+
+- 🧠 [AURIX](https://github.com/ulsidae/AURIX-for-Rust) → Local LLM-based personal productivity system with a memory
 (Iterative product built through user feedback loops: task management → UX validation → behavioral insight system)
 
 - 🎙️ [cori tts](https://github.com/ulsidae/cori_tts) → PiperTTS-based text-to-speech system focused on usability and integration  
@@ -46,4 +48,4 @@ Completed:
 - Continuous improvement driven by real system usage and feedback loops  
 - System design thinking applied across all projects  
 - Performance-aware engineering with focus on efficiency and latency  
-- Reliability, maintainability, and failure-resistant design principle
+- Reliability, maintainability, and failure-resistant design
