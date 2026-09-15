@@ -4,12 +4,12 @@
 Je suis tombé, et pourtant je cours.
 ```
 
-> *(I fell — yet I keep running.)*
-
-🌐 [Version française](https://github.com/ulsidae/portfolio-fr/blob/main/README.md)
+> *[(I fell — yet I keep running.)](https://github.com/ulsidae/dev_logs/blob/main/AI/EVO-1/curriculum_neuroevolution.py)*
 
 Falling is part of the process.
 This is a record of persistence through uncertainty, failure, and continuous forward movement.
+
+🌐 [Version française](https://github.com/ulsidae/portfolio-fr/blob/main/README.md)
 
 ---
 
