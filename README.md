@@ -29,16 +29,16 @@ Completed:
 
 **I design, build, and iterate on systems across software engineering, security, and AI.**
 
-- 🧠 [AURIX](https://github.com/ulsidae/AURIX-for-Rust) → Local LLM-based personal productivity system with a memory
+- 🧠 [AURIX](https://github.com/ulsidae/AURIX-for-Rust) → Local LLM-based personal productivity system with a memory <br>
 (Iterative product built through user feedback loops: task management → UX validation → behavioral insight system)
 
-- 🎙️ [cori tts](https://github.com/ulsidae/cori_tts) → PiperTTS-based text-to-speech system focused on usability and integration  
+- 🎙️ [cori tts](https://github.com/ulsidae/cori_tts) → PiperTTS-based text-to-speech system focused on usability and integration  <br>
 (Practical voice interface layer with emphasis on reducing friction and exploring upstream contribution to the Piper ecosystem)
 
-- 🍯 [RSVP-systems](https://github.com/ulsidae/RSVP-systems/tree/main) → System-level problem solving and execution framework  
+- 🍯 [RSVP-systems](https://github.com/ulsidae/RSVP-systems/tree/main) → System-level problem solving and execution framework  <br>
   (Planning and orchestration layer for experimental system design)
 
-- 📓 [dev_logs](https://github.com/ulsidae/dev_logs) → Personal idea and decision journal for system design and everyday thinking  
+- 📓 [dev_logs](https://github.com/ulsidae/dev_logs) → Personal idea and decision journal for system design and everyday thinking  <br>
   (Living record of design decisions and iterative thinking across projects and daily life)
 
 ---
