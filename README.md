@@ -32,9 +32,6 @@ Completed:
 - 🧠 [AURIX](https://github.com/ulsidae/AURIX-for-Rust) → Local LLM-based personal productivity system with a memory <br>
 (Iterative product built through user feedback loops: task management → UX validation → behavioral insight system)
 
-- 🎙️ [cori tts](https://github.com/ulsidae/cori_tts) → PiperTTS-based text-to-speech system focused on usability and integration  <br>
-(Practical voice interface layer with emphasis on reducing friction and exploring upstream contribution to the Piper ecosystem)
-
 - 🍯 [RSVP-systems](https://github.com/ulsidae/RSVP-systems/tree/main) → System-level problem solving and execution framework  <br>
   (Planning and orchestration layer for experimental system design)
 
