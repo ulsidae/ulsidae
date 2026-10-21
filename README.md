@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Temporary hiatus | Oct 20, 2026 – Jan 1, 2028**
+> 
+> Focusing on certifications and professional commitments.
+> Occasional project updates may still appear.
+
 # 🍯 The Motto
 
 ```bash
