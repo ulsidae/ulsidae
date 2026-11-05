@@ -18,7 +18,7 @@
 <strong>FR</strong><br/>
 <sub>Français · ●</sub></td>
           <td align="center">
-            <a href="#">
+            <a href="https://github.com/ulsidae/ulsidae/blob/main/readme.ja.md">
               <strong>JA</strong><br/>
               <sub>日本語</sub>
             </a>
