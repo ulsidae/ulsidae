@@ -30,7 +30,7 @@
             </a>
           </td>
           <td align="center">
-            <a href="#">
+            <a href="https://github.com/ulsidae/ulsidae/blob/main/readme.kr.md">
               <strong>KR</strong><br/>
               <sub>한국어</sub>
             </a>
