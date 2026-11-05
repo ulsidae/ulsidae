@@ -24,7 +24,7 @@
             <sub>日本語 · ●</sub>
           </td>
           <td align="center">
-            <a href="#">
+            <a href="https://github.com/ulsidae/ulsidae/blob/main/readme.zh-CN.md">
               <strong>ZH</strong><br/>
               <sub>中文(普通话)</sub>
             </a>
