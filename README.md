@@ -12,7 +12,7 @@
             <sub>English · ●</sub>
           </td>
           <td align="center">
-            <a href="#">
+            <a href="https://github.com/ulsidae/ulsidae/blob/main/readme.fr.md">
               <strong>FR</strong><br/>
               <sub>Français</sub>
             </a>
