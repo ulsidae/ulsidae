@@ -1,5 +1,3 @@
-> TODO: COMPLETE README.md
-
 <table align="center" width="100%" border="1" cellpadding="12" cellspacing="0">
   <tr>
     <td align="center">
@@ -91,7 +89,7 @@ Je suis tombé, et pourtant je cours.
 
 ---
 
-各プロジェクトの概要や着想、ならびにその背景にあるコンセプトについては、[プロジェクトカテゴリ一覧（Project Categories Overview）]()をご覧ください。
+各プロジェクトの概要や着想、ならびにその背景にあるコンセプトについては、[プロジェクトカテゴリ一覧（Project Categories Overview）](https://github.com/ulsidae/portfolio/blob/main/readme.ja.md)をご覧ください。
 
 また、これまでの取り組みをより幅広くご覧いただくには、[すべてのリポジトリ](https://github.com/ulsidae?tab=repositories)もあわせてご覧ください。
 
