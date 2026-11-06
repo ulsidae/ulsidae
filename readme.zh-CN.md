@@ -1,5 +1,3 @@
-> TODO: COMPLETE README.md
-
 <table align="center" width="100%" border="1" cellpadding="12" cellspacing="0">
   <tr>
     <td align="center">
@@ -91,7 +89,7 @@ Je suis tombé, et pourtant je cours.
 
 ---
 
-有关各项目的概述、构想及其背后的理念，敬请参阅[项目分类总览（Project Categories Overview）]()。
+有关各项目的概述、构想及其背后的理念，敬请参阅[项目分类总览（Project Categories Overview）](https://github.com/ulsidae/portfolio/blob/main/readme.zh-CN.md)。
 
 此外，如需全面了解我以往的实践与成果，欢迎浏览[全部代码仓库](https://github.com/ulsidae?tab=repositories)。
 
