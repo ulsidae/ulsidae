@@ -1,5 +1,3 @@
-> TODO: COMPLETE README.md
-
 <table align="center" width="100%" border="1" cellpadding="12" cellspacing="0">
  <tr>
  <td align="center">
@@ -55,7 +53,7 @@ J'ai donc pris soin d'en consigner ici chaque trace : chaque erreur, chaque obst
 
 ---
 
-> [!IMPORTANT]\
+> [!IMPORTANT]
 > **Activité réduite | 20 oct. 2026 – 1er janv. 2028**
 >
 > Je consacrerai cette période à l'obtention de certifications, à mes engagements professionnels ainsi qu'à la construction de mon parcours professionnel sur le long terme.
@@ -90,7 +88,7 @@ J'accorde une importance particulière aux résultats concrets : des projets men
 
 ---
 
-Pour approfondir votre compréhension de ces projets, de leurs objectifs et des concepts qui les sous-tendent, je vous invite à consulter la [présentation des différentes catégories de projets]().
+Pour approfondir votre compréhension de ces projets, de leurs objectifs et des concepts qui les sous-tendent, je vous invite à consulter la [présentation des différentes catégories de projets](https://github.com/ulsidae/portfolio/blob/main/readme.fr.md).
 
 Vous pouvez également parcourir [l'ensemble de mes dépôts](https://github.com/ulsidae?tab=repositories) afin de découvrir plus largement mes travaux.
 
