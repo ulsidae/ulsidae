@@ -1,5 +1,3 @@
-> TODO: COMPLETE README.md
-
 <table align="center" width="100%" border="1" cellpadding="12" cellspacing="0">
   <tr>
     <td align="center">
@@ -91,7 +89,7 @@ Je suis tombé, et pourtant je cours.
 
 ---
 
-각 프로젝트의 개요와 구상, 그리고 그 바탕에 있는 기획 의도는 [프로젝트 분류 개요(Project Categories Overview)]()에서 확인하실 수 있습니다.
+각 프로젝트의 개요와 구상, 그리고 그 바탕에 있는 기획 의도는 [프로젝트 분류 개요(Project Categories Overview)](https://github.com/ulsidae/portfolio/blob/main/readme.kr.md)에서 확인하실 수 있습니다.
 
 또한 지금까지의 활동과 성과를 폭넓게 살펴보시려면 [전체 저장소](https://github.com/ulsidae?tab=repositories)도 함께 참고해 주시기 바랍니다.
 
