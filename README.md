@@ -1,5 +1,3 @@
-> TODO: COMPLETE README.md
-
 <table align="center" width="100%" border="1" cellpadding="12" cellspacing="0">
   <tr>
     <td align="center">
@@ -92,7 +90,7 @@ I value tangible results: completed projects, documented engineering decisions, 
 ---
 
 
-For a broader overview of these projects, their ideas, and their underlying concepts, I invite you to explore [Project Categories Overview]().
+For a broader overview of these projects, their ideas, and their underlying concepts, I invite you to explore [Project Categories Overview](https://github.com/ulsidae/portfolio/blob/main/README.md).
 
 You're also welcome to browse [all my repositories](https://github.com/ulsidae?tab=repositories) for a broader look at my work.
 
